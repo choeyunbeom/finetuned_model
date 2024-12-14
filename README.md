@@ -30,6 +30,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/choeyunbeom/finetuned_model.git
 cd finetuned_model
+```
 
 ## Usage
 Llama3 Model: Generate Novel Titles
