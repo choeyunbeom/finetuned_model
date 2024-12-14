@@ -101,7 +101,7 @@ def image_sd(prompt):
     return encoded_image
 ```
 ## Fine-Tuning Process
-- Llama3: Trained on datasets of story summaries and associated titles to improve its contextual understanding and creativity in title generation.
+- Llama3: Llama3: Trained on datasets of story summaries and associated titles to improve its contextual understanding and creativity in title generation. The model was specifically exposed to story datasets ranging from 3000 to 5000 characters in length to optimize performance. This dataset size ensures sufficient context for the model to learn effective associations between story content and titles. If the sequence of data is mismatched or too short, the model's ability to generate coherent and relevant titles can be compromised.
 - Stable Diffusion: Fine-tuned with a curated dataset of web novel covers and captions, aligning textual and visual data for prompt-based image generation.
 ## Dependencies
 - Python 3.8+
