@@ -187,9 +187,6 @@ def generate(genre, query):
     - Output: (Generated image preview)
 ## Contributors
 - choeyunbeom
-## License
-- This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## References
 - This project is inspired by and builds upon the following research and methodologies:
 
