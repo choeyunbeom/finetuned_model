@@ -10,7 +10,7 @@ def generate(genre, query):
     - max_length: Maximum length of the generated text
     - temperature: Controls the diversity of the probability distribution
     - top_k: Considers the top k most probable words
-    - top_p: Uses nucleus sampling where only words with cumulative probability <= p are considered
+    - top_p: Uses nucleus sampling
     - repetition_penalty: Penalty for repeated words
     - device: 'cuda' or 'cpu' to specify the device for generation
     """
@@ -30,8 +30,7 @@ def generate(genre, query):
         top_k=35,
         top_p=0.8,
         repetition_penalty=1.5,
-        do_sample=True,
-        num_return_sequences=1  # Generate only one sequence
+        do_sample=True
     )
 
     generated_text = generated[0]['generated_text']
