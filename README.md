@@ -106,7 +106,7 @@ def image_sd(prompt):
 
 ```python
 import re
-from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
+from transformers import pipeline
 
 def generate(genre, query):
     """
