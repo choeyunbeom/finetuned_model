@@ -33,11 +33,10 @@ cd finetuned_model
 ```
 
 ## Usage
-Llama3 Model: Generate Novel Titles
-The Llama3 model is fine-tuned to generate novel titles based on story content. Here's how to use it:
+- Llama3 Model: Generate Novel Titles
+- The Llama3 model is fine-tuned to generate novel titles based on story content. Here's how to use it:
 
-python
-
+```python
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
@@ -60,10 +59,11 @@ def predict(query):
     
     outputs = pipe(messages, max_new_tokens=20, eos_token_id=terminators, do_sample=True, temperature=0.6, top_p=0.9)
     return outputs[0]["generated_text"][len(messages):]
-Stable Diffusion Model: Generate Novel Covers
-The Stable Diffusion model is fine-tuned to generate web novel covers based on a textual prompt. Here’s how you can use it:
+```
+- Stable Diffusion Model: Generate Novel Covers
+- The Stable Diffusion model is fine-tuned to generate web novel covers based on a textual prompt. Here’s how you can use it:
 
-python
+```python
 import torch
 from diffusers import StableDiffusionPipeline
 import io
@@ -99,7 +99,7 @@ def image_sd(prompt):
     buffer.close()
 
     return encoded_image
-
+```
 ## Fine-Tuning Process
 - Llama3: Trained on datasets of story summaries and associated titles to improve its contextual understanding and creativity in title generation.
 - Stable Diffusion: Fine-tuned with a curated dataset of web novel covers and captions, aligning textual and visual data for prompt-based image generation.
