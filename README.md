@@ -1,7 +1,7 @@
 # Fine-Tuned Model Repository
 
 This repository contains fine-tuned models designed for creative applications, leveraging advanced machine learning frameworks like Llama3 and Stable Diffusion.
-
+### Note: All training data and models were designed to function optimally in Korean.
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -164,7 +164,7 @@ def generate(genre, query):
 
 - **Stable Diffusion**: Fine-tuned with a curated dataset of web novel covers and captions, aligning textual and visual data for prompt-based image generation.
 - **GPT-2**: Fully fine-tuned using a dataset of Korean fiction, aligned to prompts and genres. It generates paragraphs of stories that match the input genre and theme.
-### Note: All training data and models were designed to function optimally in Korean.
+
 
 ## Dependencies
 - Python 3.8+
