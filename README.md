@@ -176,7 +176,7 @@ def generate(genre, query):
     - Input:
         - **Prompt**: "A brave knight's quest"
         - **Genre**: "Fantasy"
-      -   Output: (Generated paragraph in Korean)
+    - Output: (Generated paragraph in Korean)
 
 - **Llama3**: Generate a Novel Title
     - Input: "A story about a young wizard discovering their destiny."
