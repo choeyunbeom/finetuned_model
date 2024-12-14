@@ -160,11 +160,11 @@ def generate(genre, query):
 ```
 
 ## Fine-Tuning Process
-- Llama3: Llama3: Trained on datasets of story summaries and associated titles to improve its contextual understanding and creativity in title generation. The model was specifically exposed to story datasets ranging from 3000 to 5000 characters in length to optimize performance. This dataset size ensures sufficient context for the model to learn effective associations between story content and titles. If the sequence of data is mismatched or too short, the model's ability to generate coherent and relevant titles can be compromised.
+- **Llama3**: Llama3: Trained on datasets of story summaries and associated titles to improve its contextual understanding and creativity in title generation. The model was specifically exposed to story datasets ranging from 3000 to 5000 characters in length to optimize performance. This dataset size ensures sufficient context for the model to learn effective associations between story content and titles. If the sequence of data is mismatched or too short, the model's ability to generate coherent and relevant titles can be compromised.
 
-- Stable Diffusion: Fine-tuned with a curated dataset of web novel covers and captions, aligning textual and visual data for prompt-based image generation.
-
-### Note: All training data and models were designed to function optimally in Korean.
+- **Stable Diffusion**: Fine-tuned with a curated dataset of web novel covers and captions, aligning textual and visual data for prompt-based image generation.
+- **GPT-2**: Fully fine-tuned using a dataset of Korean fiction, aligned to prompts and genres. It generates paragraphs of stories that match the input genre and theme.
+**Note**: All training data and models were designed to function optimally in Korean.
 
 ## Dependencies
 - Python 3.8+
@@ -173,18 +173,18 @@ def generate(genre, query):
 - FastAPI for API deployment
 ## Examples
 - **GPT-2**: Generate a Story Paragraph
-    Input:
+    - Input:
         - **Prompt**: "A brave knight's quest"
         - **Genre**: "Fantasy"
-        Output: (Generated paragraph in Korean)
+      -   Output: (Generated paragraph in Korean)
 
 - **Llama3**: Generate a Novel Title
-    Input: "A story about a young wizard discovering their destiny."
-    Output: (In Korean)
+    - Input: "A story about a young wizard discovering their destiny."
+    - Output: (In Korean)
 
 - **Stable Diffusion**: Create a Novel Cover
-    Input: "A magical forest with a lone wizard holding a glowing staff."
-    Output: (Generated image preview)
+    - Input: "A magical forest with a lone wizard holding a glowing staff."
+    - Output: (Generated image preview)
 ## Contributors
 - choeyunbeom
 ## License
