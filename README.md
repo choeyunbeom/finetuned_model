@@ -11,7 +11,7 @@ This repository contains fine-tuned models designed for creative applications, l
 - [Dependencies](#dependencies)
 - [Examples](#examples)
 - [Contributors](#contributors)
-- [License](#license)
+- [References](#references)
 
 ## Introduction
 This project includes:
@@ -172,12 +172,6 @@ def generate(genre, query):
 - Stable Diffusion tools
 - FastAPI for API deployment
 ## Examples
-- **GPT-2**: Generate a Story Paragraph
-    - Input:
-        - **Prompt**: "A brave knight's quest"
-        - **Genre**: "Fantasy"
-    - Output: (Generated paragraph in Korean)
-
 - **Llama3**: Generate a Novel Title
     - Input: "A story about a young wizard discovering their destiny."
     - Output: (In Korean)
@@ -185,6 +179,13 @@ def generate(genre, query):
 - **Stable Diffusion**: Create a Novel Cover
     - Input: "A magical forest with a lone wizard holding a glowing staff."
     - Output: (Generated image preview)
+
+- **GPT-2**: Generate a Story Paragraph
+    - Input:
+        - **Prompt**: "A brave knight's quest"
+        - **Genre**: "Fantasy"
+    - Output: (Generated paragraph in Korean)
+
 ## Contributors
 - choeyunbeom
 ## References
