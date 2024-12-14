@@ -194,12 +194,12 @@ def generate(genre, query):
 - This project is inspired by and builds upon the following research and methodologies:
 
 - **Llama3 Model**
-    - Fine-tuned using <a href = "https://openreview.net/pdf?id=OUIFPHEgJU">**QLoRA**</a>: Efficient Finetuning of Quantized LLMs 
-    - Original paper: LLaMA: Open and Efficient Foundation Language Models
+    - Fine-tuned using **QLoRA**: <a href = "https://openreview.net/pdf?id=OUIFPHEgJU">Efficient Finetuning of Quantized LLMs</a>
+    - Original paper: LLaMA: <a href = "https://arxiv.org/pdf/2407.21783">Open and Efficient Foundation Language Models</a>
 
 - **Stable Diffusion**
-    - Fine-tunded using <a href="https://arxiv.org/pdf/2106.09685">**LoRA**</a>: Low-Rank Adaptation for Fine-Tuning Large Neural Networks
-    - Original paper: High-Resolution Image Synthesis with Latent Diffusion Models
+    - Fine-tunded using **LoRA**: <a href="https://arxiv.org/pdf/2106.09685">Low-Rank Adaptation for Fine-Tuning Large Neural Networks</a>
+    - Original paper: <a href = "https://arxiv.org/pdf/2112.10752">High-Resolution Image Synthesis with Latent Diffusion Models</a>
 
 - **GPT-2**
-    - Original paper: Language Models are Unsupervised Multitask Learners
+    - Original paper: <a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">Language Models are Unsupervised Multitask Learners</a>
